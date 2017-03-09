@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="KONASHI_MINI">
+<description>&lt;p&gt;konashi 小型化拡張ボード (YE-EX002)は、
+フィジカル・コンピューティング・ツールキットkonashi (YE-WPC001)を小型化するための基板です。&lt;/p&gt;
+&lt;p&gt;本製品を使うことで、konashiを使ったウェアラブル機器や組み込み機器のプロトタイプをより小型に製作することができます。 &lt;/p&gt;</description>
+<pad name="PIO7" x="-7.62" y="0" drill="1.2" diameter="1.9304"/>
+<pad name="GND" x="-7.62" y="-2.54" drill="1.2" diameter="1.9304"/>
+<pad name="+3V" x="-7.62" y="-5.08" drill="1.2" diameter="1.9304"/>
+<pad name="VBAT1" x="-7.62" y="-7.62" drill="1.2" diameter="1.9304"/>
+<pad name="VBAT2" x="-7.62" y="-10.16" drill="1.2" diameter="1.9304"/>
+<pad name="PIO6" x="-7.62" y="2.54" drill="1.2" diameter="1.9304"/>
+<pad name="AIO2" x="-7.62" y="5.08" drill="1.2" diameter="1.9304"/>
+<pad name="AIO1" x="-7.62" y="7.62" drill="1.2" diameter="1.9304"/>
+<pad name="AIO0" x="-7.62" y="10.16" drill="1.2" diameter="1.9304"/>
+<pad name="GND1" x="-7.62" y="12.7" drill="1.2" diameter="1.9304"/>
+<pad name="GND3" x="7.62" y="12.7" drill="1.2" diameter="1.9304"/>
+<pad name="PIO5" x="7.62" y="10.16" drill="1.2" diameter="1.9304"/>
+<pad name="PIO4" x="7.62" y="7.62" drill="1.2" diameter="1.9304"/>
+<pad name="PIO3" x="7.62" y="5.08" drill="1.2" diameter="1.9304"/>
+<pad name="PIO2" x="7.62" y="2.54" drill="1.2" diameter="1.9304"/>
+<pad name="PIO1" x="7.62" y="0" drill="1.2" diameter="1.9304"/>
+<pad name="PIO0" x="7.62" y="-2.54" drill="1.2" diameter="1.9304"/>
+<pad name="RX" x="7.62" y="-5.08" drill="1.2" diameter="1.9304"/>
+<pad name="GND2" x="7.62" y="-7.62" drill="1.2" diameter="1.9304"/>
+<pad name="TX" x="7.62" y="-10.16" drill="1.2" diameter="1.9304"/>
+<wire x1="-9.5" y1="-12" x2="9.5" y2="-12" width="0.127" layer="21"/>
+<wire x1="9.5" y1="-12" x2="9.5" y2="14.5" width="0.127" layer="21"/>
+<wire x1="9.5" y1="14.5" x2="-9.5" y2="14.5" width="0.127" layer="21"/>
+<wire x1="-9.5" y1="14.5" x2="-9.5" y2="-12" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="13.97" width="0.127" layer="21"/>
+<wire x1="5.08" y1="13.97" x2="-5.08" y2="13.97" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="13.97" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.286" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="0" x2="-1.778" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.762" y2="0" width="0.127" layer="21"/>
+<wire x1="0.762" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.778" y2="0" width="0.127" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.127" layer="21"/>
+<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.286" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.286" y1="-2.54" x2="1.778" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-2.54" x2="1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="0.762" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-2.54" x2="0.254" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0.254" y1="-2.54" x2="-0.254" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-2.54" x2="-0.762" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.778" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-2.54" x2="-2.286" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="0" x2="-2.286" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="1.27" x2="-1.778" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="1.27" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.254" y1="1.27" x2="0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="0.762" y1="1.27" x2="0.762" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="1.778" y1="1.27" x2="1.778" y2="0" width="0.127" layer="21"/>
+<wire x1="2.286" y1="1.27" x2="2.286" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-2.54" x2="-2.286" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="-2.54" x2="-0.762" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-2.54" x2="-0.254" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0.254" y1="-2.54" x2="0.254" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="2.286" y1="-2.54" x2="2.286" y2="-3.81" width="0.127" layer="21"/>
+<text x="-2.54" y="-7.62" size="1.27" layer="21">ユカイ</text>
+<text x="-5.588" y="11.684" size="0.6096" layer="21" rot="R90">GND</text>
+<text x="-5.588" y="9.144" size="0.6096" layer="21" rot="R90">AIO0</text>
+<text x="-5.588" y="6.858" size="0.6096" layer="21" rot="R90">AIO1</text>
+<text x="-5.588" y="4.064" size="0.6096" layer="21" rot="R90">AIO2</text>
+<text x="-5.588" y="1.524" size="0.6096" layer="21" rot="R90">PIO6</text>
+<text x="-5.588" y="-1.016" size="0.6096" layer="21" rot="R90">PIO7</text>
+<text x="-5.588" y="-3.556" size="0.6096" layer="21" rot="R90">GND</text>
+<text x="-5.588" y="-5.842" size="0.6096" layer="21" rot="R90">+3V</text>
+<text x="-5.588" y="-9.906" size="0.6096" layer="21" rot="R90">VBAT</text>
+<text x="6.096" y="11.684" size="0.6096" layer="21" rot="R90">GND</text>
+<text x="6.096" y="9.398" size="0.6096" layer="21" rot="R90">PIO5</text>
+<text x="6.096" y="6.858" size="0.6096" layer="21" rot="R90">PIO4</text>
+<text x="6.096" y="4.318" size="0.6096" layer="21" rot="R90">PIO3</text>
+<text x="6.096" y="1.778" size="0.6096" layer="21" rot="R90">PIO2</text>
+<text x="6.096" y="-0.762" size="0.6096" layer="21" rot="R90">PIO1</text>
+<text x="6.096" y="-3.302" size="0.6096" layer="21" rot="R90">PIO0</text>
+<text x="6.096" y="-5.588" size="0.6096" layer="21" rot="R90">RX</text>
+<text x="6.096" y="-8.636" size="0.6096" layer="21" rot="R90">GND</text>
+<text x="6.096" y="-10.668" size="0.6096" layer="21" rot="R90">TX</text>
+<text x="-2.794" y="-10.16" size="0.8128" layer="21">konashi mini</text>
+<wire x1="-7.874" y1="11.43" x2="-8.89" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="11.43" x2="-8.89" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="3.81" x2="-8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-1.27" x2="-7.874" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-7.366" y1="-1.27" x2="-6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-1.27" x2="-6.35" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="3.81" x2="-6.35" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="11.43" x2="-7.366" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="3.81" x2="-7.874" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-7.366" y1="3.81" x2="-6.35" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-7.874" y1="-6.35" x2="-8.89" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-6.35" x2="-8.89" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-11.43" x2="-7.874" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-7.366" y1="-11.43" x2="-6.35" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-11.43" x2="-6.35" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-6.35" x2="-7.366" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="7.874" y1="11.43" x2="8.89" y2="11.43" width="0.127" layer="21"/>
+<wire x1="8.89" y1="11.43" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-3.81" x2="8.89" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-11.43" x2="7.874" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="7.366" y1="11.43" x2="6.35" y2="11.43" width="0.127" layer="21"/>
+<wire x1="6.35" y1="11.43" x2="6.35" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.81" x2="6.35" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-11.43" x2="7.366" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.81" x2="7.366" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="7.874" y1="-3.81" x2="8.89" y2="-3.81" width="0.127" layer="21"/>
+<text x="5.08" y="-8.89" size="0.6096" layer="21" rot="R90">UART</text>
+</package>
+</packages>
+<symbols>
+<symbol name="KONASHI_MINI">
+<description>&lt;p&gt;konashi 小型化拡張ボード (YE-EX002)は、
+フィジカル・コンピューティング・ツールキットkonashi (YE-WPC001)を小型化するための基板です。&lt;/p&gt;
+&lt;p&gt;本製品を使うことで、konashiを使ったウェアラブル機器や組み込み機器のプロトタイプをより小型に製作することができます。 &lt;/p&gt;</description>
+<pin name="PIO6" x="-17.78" y="2.54" visible="pin" length="short"/>
+<pin name="AIO2" x="-17.78" y="7.62" visible="pin" length="short"/>
+<pin name="AIO1" x="-17.78" y="12.7" visible="pin" length="short"/>
+<pin name="AIO0" x="-17.78" y="17.78" visible="pin" length="short"/>
+<pin name="GND" x="-17.78" y="22.86" visible="pin" length="short" direction="pwr"/>
+<pin name="PIO7" x="-17.78" y="-2.54" visible="pin" length="short"/>
+<pin name="GND@1" x="-17.78" y="-7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="+3V" x="-17.78" y="-12.7" visible="pin" length="short" direction="pwr"/>
+<pin name="VBAT1" x="-17.78" y="-17.78" visible="pin" length="short" direction="pwr"/>
+<pin name="VBAT2" x="-17.78" y="-22.86" visible="pin" length="short" direction="pwr"/>
+<pin name="PIO2" x="17.78" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PIO1" x="17.78" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PIO0" x="17.78" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="RX" x="17.78" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="17.78" y="-17.78" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="TX" x="17.78" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="PIO3" x="17.78" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PIO4" x="17.78" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="PIO5" x="17.78" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="GND@3" x="17.78" y="22.86" visible="pin" length="short" direction="pwr" rot="R180"/>
+<text x="-12.7" y="25.4" size="1.778" layer="97">konashi mini</text>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KONASHI_MINI">
+<description>&lt;p&gt;konashi 小型化拡張ボード (YE-EX002)は、
+フィジカル・コンピューティング・ツールキットkonashi (YE-WPC001)を小型化するための基板です。&lt;/p&gt;
+&lt;p&gt;本製品を使うことで、konashiを使ったウェアラブル機器や組み込み機器のプロトタイプをより小型に製作することができます。 &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="KONASHI_MINI" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="KONASHI_MINI">
+<connects>
+<connect gate="G$1" pin="+3V" pad="+3V"/>
+<connect gate="G$1" pin="AIO0" pad="AIO0"/>
+<connect gate="G$1" pin="AIO1" pad="AIO1"/>
+<connect gate="G$1" pin="AIO2" pad="AIO2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND1"/>
+<connect gate="G$1" pin="GND@2" pad="GND2"/>
+<connect gate="G$1" pin="GND@3" pad="GND3"/>
+<connect gate="G$1" pin="PIO0" pad="PIO0"/>
+<connect gate="G$1" pin="PIO1" pad="PIO1"/>
+<connect gate="G$1" pin="PIO2" pad="PIO2"/>
+<connect gate="G$1" pin="PIO3" pad="PIO3"/>
+<connect gate="G$1" pin="PIO4" pad="PIO4"/>
+<connect gate="G$1" pin="PIO5" pad="PIO5"/>
+<connect gate="G$1" pin="PIO6" pad="PIO6"/>
+<connect gate="G$1" pin="PIO7" pad="PIO7"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VBAT1" pad="VBAT1"/>
+<connect gate="G$1" pin="VBAT2" pad="VBAT2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

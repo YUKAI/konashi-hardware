@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="KONASHI1.0">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<wire x1="-16" y1="-26" x2="17" y2="-26" width="0.127" layer="21"/>
+<wire x1="17" y1="-26" x2="17" y2="26" width="0.127" layer="21"/>
+<wire x1="17" y1="26" x2="-16" y2="26" width="0.127" layer="21"/>
+<wire x1="-16" y1="26" x2="-16" y2="-26" width="0.127" layer="21"/>
+<pad name="GND@2" x="-10.93" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="GND" x="-10.93" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="AIO0" x="-8.39" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="AIO1" x="-5.85" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="AIO2" x="-3.31" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO6/SDA" x="-0.77" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO7/SCL" x="1.77" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="GND@1" x="4.31" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="+3V" x="6.85" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="+5V" x="9.39" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="VBAT" x="11.93" y="-24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO5" x="-8.39" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO4" x="-5.85" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO3" x="-3.31" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO2" x="-0.77" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO1" x="1.77" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="PIO0" x="4.31" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="RX" x="6.85" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="GND@3" x="9.39" y="24.13" drill="1" diameter="1.6764"/>
+<pad name="TX" x="11.93" y="24.13" drill="1" diameter="1.6764"/>
+<text x="-12.19" y="-22.698" size="0.8128" layer="21">GND</text>
+<text x="3.05" y="-22.698" size="0.8128" layer="21">GND</text>
+<text x="-12.19" y="22.006" size="0.8128" layer="21">GND</text>
+<text x="8.13" y="22.006" size="0.8128" layer="21">GND</text>
+<text x="-6.856" y="-21.682" size="0.8128" layer="21">AIO</text>
+<text x="5.844" y="-22.698" size="0.8128" layer="21">+3V</text>
+<text x="8.13" y="-22.698" size="0.8128" layer="21">+5V</text>
+<text x="10.416" y="-22.698" size="0.8128" layer="21">VBAT</text>
+<text x="-3.046" y="20.736" size="0.8128" layer="21">PIO</text>
+<text x="6.098" y="22.006" size="0.8128" layer="21">RX</text>
+<text x="11.432" y="22.006" size="0.8128" layer="21">TX</text>
+<text x="4.066" y="22.006" size="0.8128" layer="21">0</text>
+<text x="-8.634" y="22.006" size="0.8128" layer="21">5</text>
+<text x="-8.761" y="-22.698" size="0.8128" layer="21">0</text>
+<text x="-3.681" y="-22.698" size="0.8128" layer="21">2</text>
+<text x="1.526" y="22.006" size="0.8128" layer="21">1</text>
+<text x="-1.014" y="22.006" size="0.8128" layer="21">2</text>
+<text x="-3.554" y="22.006" size="0.8128" layer="21">3</text>
+<text x="-6.094" y="22.006" size="0.8128" layer="21">4</text>
+<text x="-6.221" y="-22.698" size="0.8128" layer="21">1</text>
+<text x="7.876" y="20.736" size="0.8128" layer="21">UART</text>
+<text x="-0.252" y="-21.682" size="0.8128" layer="21">I2C</text>
+<text x="-1.903" y="-22.698" size="0.8128" layer="21">SDA</text>
+<text x="0.637" y="-22.698" size="0.8128" layer="21">SCL</text>
+<wire x1="-9.396" y1="-24.476" x2="-9.396" y2="-25.238" width="0.127" layer="21"/>
+<wire x1="-9.396" y1="-25.238" x2="-2.284" y2="-25.238" width="0.127" layer="21"/>
+<wire x1="-2.284" y1="-25.238" x2="-2.284" y2="-24.476" width="0.127" layer="21"/>
+<wire x1="-9.396" y1="-23.968" x2="-9.396" y2="-22.952" width="0.127" layer="21"/>
+<wire x1="-9.396" y1="-22.952" x2="-2.284" y2="-22.952" width="0.127" layer="21"/>
+<wire x1="-2.284" y1="-22.952" x2="-2.284" y2="-23.968" width="0.127" layer="21"/>
+<wire x1="-1.776" y1="-23.968" x2="-1.776" y2="-22.952" width="0.127" layer="21"/>
+<wire x1="-1.776" y1="-22.952" x2="2.796" y2="-22.952" width="0.127" layer="21"/>
+<wire x1="2.796" y1="-22.952" x2="2.796" y2="-23.968" width="0.127" layer="21"/>
+<wire x1="2.796" y1="-24.476" x2="2.796" y2="-25.238" width="0.127" layer="21"/>
+<wire x1="2.796" y1="-25.238" x2="-1.776" y2="-25.238" width="0.127" layer="21"/>
+<wire x1="-1.776" y1="-25.238" x2="-1.776" y2="-24.476" width="0.127" layer="21"/>
+<wire x1="-9.396" y1="23.784" x2="-9.396" y2="23.022" width="0.127" layer="21"/>
+<wire x1="-9.396" y1="23.022" x2="5.336" y2="23.022" width="0.127" layer="21"/>
+<wire x1="5.336" y1="23.022" x2="5.336" y2="23.784" width="0.127" layer="21"/>
+<wire x1="5.336" y1="24.292" x2="5.336" y2="25.308" width="0.127" layer="21"/>
+<wire x1="5.336" y1="25.308" x2="-9.396" y2="25.308" width="0.127" layer="21"/>
+<wire x1="-9.396" y1="25.308" x2="-9.396" y2="24.292" width="0.127" layer="21"/>
+<wire x1="5.844" y1="23.784" x2="5.844" y2="23.022" width="0.127" layer="21"/>
+<wire x1="5.844" y1="23.022" x2="12.956" y2="23.022" width="0.127" layer="21"/>
+<wire x1="12.956" y1="23.022" x2="12.956" y2="23.784" width="0.127" layer="21"/>
+<wire x1="12.956" y1="24.292" x2="12.956" y2="25.308" width="0.127" layer="21"/>
+<wire x1="12.956" y1="25.308" x2="5.844" y2="25.308" width="0.127" layer="21"/>
+<wire x1="5.844" y1="25.308" x2="5.844" y2="24.292" width="0.127" layer="21"/>
+<hole x="-14" y="24" drill="2.2"/>
+<hole x="15" y="24" drill="2.2"/>
+<hole x="-14" y="-24" drill="2.2"/>
+<hole x="15" y="-24" drill="2.2"/>
+<text x="-4.572" y="16.764" size="1.778" layer="21">konashi</text>
+</package>
+</packages>
+<symbols>
+<symbol name="KONASHI1.0">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<pin name="GND@2" x="-12.7" y="22.86" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="PIO5" x="-10.16" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO4" x="-7.62" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO3" x="-5.08" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO2" x="-2.54" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO1" x="0" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO0" x="2.54" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="RX" x="5.08" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="GND@3" x="7.62" y="22.86" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="TX" x="10.16" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="GND0" x="-12.7" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="AIO0" x="-10.16" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="AIO1" x="-7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="AIO2" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PIO6/SDA" x="-2.54" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="PIO7/SCL" x="0" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="GND@1" x="2.54" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="+3V" x="5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="+5V" x="7.62" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="VBAT" x="10.16" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<text x="-10.16" y="3.81" size="3.81" layer="94">konashi</text>
+<text x="-5.08" y="-5.08" size="2.54" layer="94">ユカイ</text>
+</symbol>
+<symbol name="KONASHI2.0">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<wire x1="-15.24" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<pin name="GND@2" x="-12.7" y="22.86" visible="pin" length="short" direction="pas" rot="R270"/>
+<pin name="PIO0" x="-10.16" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO1" x="-7.62" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO2" x="-5.08" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO3" x="-2.54" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO4" x="0" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="PIO5" x="2.54" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="RX" x="5.08" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="GND@3" x="7.62" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="TX" x="10.16" y="22.86" visible="pin" length="short" rot="R270"/>
+<pin name="GND" x="-12.7" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="AIN0" x="-10.16" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="AIN1" x="-7.62" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="AIN2" x="-5.08" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="SDA" x="-2.54" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="SCL" x="0" y="-22.86" visible="pin" length="short" rot="R90"/>
+<pin name="GND@1" x="2.54" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="+3V" x="5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="+5V" x="7.62" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="VBAT" x="10.16" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<text x="-8.89" y="5.08" size="2.54" layer="94" distance="63">konashi2.0</text>
+<text x="-5.08" y="-5.08" size="2.54" layer="94">ユカイ</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KONASHI1.0">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="KONASHI1.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KONASHI1.0">
+<connects>
+<connect gate="G$1" pin="+3V" pad="+3V"/>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="AIO0" pad="AIO0"/>
+<connect gate="G$1" pin="AIO1" pad="AIO1"/>
+<connect gate="G$1" pin="AIO2" pad="AIO2"/>
+<connect gate="G$1" pin="GND0" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="PIO0" pad="PIO0"/>
+<connect gate="G$1" pin="PIO1" pad="PIO1"/>
+<connect gate="G$1" pin="PIO2" pad="PIO2"/>
+<connect gate="G$1" pin="PIO3" pad="PIO3"/>
+<connect gate="G$1" pin="PIO4" pad="PIO4"/>
+<connect gate="G$1" pin="PIO5" pad="PIO5"/>
+<connect gate="G$1" pin="PIO6/SDA" pad="PIO6/SDA"/>
+<connect gate="G$1" pin="PIO7/SCL" pad="PIO7/SCL"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KONASHI2.0">
+<description>&lt;p&gt;konashiは、スマホ・タブレット端末と連携するフィジカルコンピューティングのためのツールキットです。&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="KONASHI2.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KONASHI1.0">
+<connects>
+<connect gate="G$1" pin="+3V" pad="+3V"/>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="AIN0" pad="AIO0"/>
+<connect gate="G$1" pin="AIN1" pad="AIO1"/>
+<connect gate="G$1" pin="AIN2" pad="AIO2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="PIO0" pad="PIO0"/>
+<connect gate="G$1" pin="PIO1" pad="PIO1"/>
+<connect gate="G$1" pin="PIO2" pad="PIO2"/>
+<connect gate="G$1" pin="PIO3" pad="PIO3"/>
+<connect gate="G$1" pin="PIO4" pad="PIO4"/>
+<connect gate="G$1" pin="PIO5" pad="PIO5"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCL" pad="PIO7/SCL"/>
+<connect gate="G$1" pin="SDA" pad="PIO6/SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
