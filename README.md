@@ -1,6 +1,4 @@
-konashi Hardware Documents
-----
+# konashi Hardware Libraries
 
-# What
-konashiのハードウェアに関するドキュメントです。
-
+## What
+[konashi](http://konashi.ux-xu.com/)と拡張ボードで電子工作するときに役立つデータです。
