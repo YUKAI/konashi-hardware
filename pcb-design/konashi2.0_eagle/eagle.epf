@@ -1,0 +1,38 @@
+[Eagle]
+Version="06 03 00"
+Platform="Mac OS X"
+Serial="7031C8D6A0-LSR-WLM-1CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-6.3.0/lbr/rcl.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2014BOCCO/prototype1/bocco-circuit/20150226/bocco_sub.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2014BOCCO/prototype1/bocco-circuit/20150318/sagiii.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2014BOCCO/prototype1/bocco-circuit/20150426/bocco_sub.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/airwave_ant.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/airwave.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/APFA3010SEEZGQBDC.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/AYZ0203AGRLC.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/ISL22512.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/MCP73831T.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/MJ-8435.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/PAM8408DR.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/RN52-I.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/WS2812B.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/TPA6112A2.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/SUPPLY0.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/JST-SH.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/battery.lbr"
+UsedLibrary="/Users/sagiii/Dropbox/2015VIE/VIE_ver2/con-jst2.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="130 28 1225 779"
+State=2
+Number=0
+
+[Desktop]
+Screen="1440 900"
+Window="Win_1"
