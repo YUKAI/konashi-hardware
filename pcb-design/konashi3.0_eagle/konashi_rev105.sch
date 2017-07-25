@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7648,8 +7648,8 @@ Source: www.kingbright.com</description>
 <part name="U$2" library="supply" deviceset="VBAT" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="U$5" library="supply" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="10u"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="2.2u"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
 <part name="CN3" library="ble_CSR2" deviceset="WML-C69" device=""/>
 <part name="CN4" library="konashi_rev105" deviceset="2X07" device=""/>
 <part name="CN5" library="con-std" deviceset="MA10-1" device=""/>
@@ -7686,7 +7686,7 @@ Source: www.kingbright.com</description>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="U$10" library="supply" deviceset="+3V" device=""/>
-<part name="IC1" library="LDO" deviceset="LP2981-30DBVR" device=""/>
+<part name="IC1" library="LDO" deviceset="LP2981-30DBVR" device="" value="LP2985N"/>
 <part name="CN7" library="con-CoinBatt" deviceset="BK-913" device=""/>
 <part name="SJ2" library="pad" deviceset="SJS" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="500k"/>
@@ -7695,6 +7695,8 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="106.68" y1="101.6" x2="106.68" y2="99.06" width="0.1524" layer="94"/>
+<wire x1="205.74" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="LED2" gate="G$1" x="13.97" y="50.8"/>
