@@ -7686,7 +7686,7 @@ Source: www.kingbright.com</description>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="3.3k"/>
 <part name="U$10" library="supply" deviceset="+3V" device=""/>
-<part name="IC1" library="LDO" deviceset="LP2981-30DBVR" device="" value="LP2985N"/>
+<part name="IC1" library="LDO" deviceset="LP2981-30DBVR" device="" value="LP2985IM5-3.6"/>
 <part name="CN7" library="con-CoinBatt" deviceset="BK-913" device=""/>
 <part name="SJ2" library="pad" deviceset="SJS" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="500k"/>

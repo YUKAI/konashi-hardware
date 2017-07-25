@@ -3029,7 +3029,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$13" library="konashilogo" package="KONASHI_LOGO_WIRE" value="" x="16" y="40.1" rot="MR0"/>
 <element name="U$14" library="yukailib" package="YUKAILOGO" value="" x="16.5" y="31.1" rot="MR0"/>
-<element name="IC1" library="LDO" package="SOT-23" value="LP2985N" x="2.4" y="21.7" smashed="yes" rot="MR0">
+<element name="IC1" library="LDO" package="SOT-23" value="LP2985IM5-3.6" x="2.4" y="21.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="5.31" y="22.77" size="0.8128" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="CN7" library="con-CoinBatt" package="BK-913" value="BK-913" x="10.5" y="36" smashed="yes" rot="R270">
@@ -3585,51 +3585,6 @@ design rules under a new name.</description>
 <wire x1="24.15" y1="20.28" x2="24.16" y2="20.27" width="0.2" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="18,29,8517d274127d451e"/>
-<approved hash="18,29,3350a9b768710a2d"/>
-<approved hash="18,29,e2e5b44a744322ec"/>
-<approved hash="18,29,544ea8cb69d56d3f"/>
-<approved hash="18,29,d983ff7af6ac70ae"/>
-<approved hash="18,29,184f12a8ba96108a"/>
-<approved hash="18,29,c089acbdacbec08a"/>
-<approved hash="18,29,455c21802183455f"/>
-<approved hash="18,29,4fa52f692f6a4fa6"/>
-<approved hash="18,29,5af73a3b3a385af4"/>
-<approved hash="18,29,c620a6d4a6d7c623"/>
-<approved hash="18,29,a590c3aec397a5a9"/>
-<approved hash="18,29,9510f32ef3279519"/>
-<approved hash="18,29,bbb5b56dfefc89cc"/>
-<approved hash="18,29,cf7f533eaf514af8"/>
-<approved hash="18,29,a51733f933f9a517"/>
-<approved hash="18,29,5cd33dc53dc55cd3"/>
-<approved hash="18,29,6458344e344e6458"/>
-<approved hash="18,29,12c78fd18fd212c4"/>
-<approved hash="18,29,9d9c3a723a729d9c"/>
-<approved hash="18,29,eb0381ed81eeeb00"/>
-<approved hash="18,30,2e6838da18d70e65"/>
-<approved hash="18,30,8ae7e455c452aae0"/>
-<approved hash="18,30,776341d161ce577c"/>
-<approved hash="18,30,c50fd079b074a502"/>
-<approved hash="18,30,9c04a972c96dfc1b"/>
-<approved hash="18,30,cf9bb081b08ecf94"/>
-<approved hash="18,30,1617ea0dea0a1610"/>
-<approved hash="18,30,1d88e292e2931d89"/>
-<approved hash="18,30,f250a0bad426ee20"/>
-<approved hash="18,30,e12c8e834eba2115"/>
-<approved hash="18,30,f27283d143e8324b"/>
-<approved hash="18,30,6e2407bac783ae1d"/>
-<approved hash="5,1,4e13eff857c403e1"/>
-<approved hash="19,1,397b4fb324b1188d"/>
-<approved hash="19,1,73e2fe26df211811"/>
-<approved hash="19,1,c2bbb0299ef51bb3"/>
-<approved hash="19,1,6f3bd5ee3616c234"/>
-<approved hash="19,1,f15e5f720cf560a8"/>
-<approved hash="19,16,75f500fa0e7187c0"/>
-<approved hash="19,16,7e0d728e6b759b48"/>
-<approved hash="19,16,d6d7a4dc7c1fd287"/>
-<approved hash="19,16,ab507e36b08ba3fb"/>
-</errors>
 </board>
 </drawing>
 </eagle>
